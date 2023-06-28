@@ -22,4 +22,9 @@
         <output href="webhelp-output"/>
         <publication idref="webhelp"/>
     </deliverable>
+    <deliverable id="Autumn_Flowers_WebHelp-1687943920625" name="Autumn Flowers WebHelp">
+        <context idref="autumn_flowers"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp"/>
+    </deliverable>
 </project>
