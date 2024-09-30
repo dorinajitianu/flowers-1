@@ -3,4 +3,14 @@
     <context id="AmRSHUSsHWkdron" name="Test">
         <input href="../spring_flowers.ditamap"/>
     </context>
+    <publication id="webhelp" transtype="webhelp-responsive"/>
+    <deliverable id="d-Deliverable_1-1727719308642" name="Deliverable 1">
+        <?description {"content":"Descriere, azi, 30 september 2024"}?>
+        <context idref="AmRSHUSsHWkdron"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp">
+            <param name="webhelp.publishing.template" value="cf://templates/Oxygen"/>
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
+        </publication>
+    </deliverable>
 </project>
